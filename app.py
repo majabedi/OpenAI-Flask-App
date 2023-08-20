@@ -3,7 +3,7 @@ from flask import Flask, jsonify, request
 
 app = Flask(__name__)
 
-api_key = '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'
+api_key = 'OPENAI_API_KEY'
 bot = ChatBot(api_key, "you are a helpful assistant.")
 bot.initialize()
 

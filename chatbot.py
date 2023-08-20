@@ -1,7 +1,5 @@
 import openai
 
-api_key = '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'
-
 class ChatBot():
     def __init__(self, api_key, system_prompt):
         # OPENAI authentication
