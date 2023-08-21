@@ -1,5 +1,6 @@
 # OpenAI-Flask-App
 provides a solution to build and deploy a gpt chatbot with OpenAI API using Flask and docker.
+The whole tutorial can be found at [https://medium.com/@mengmengliu24/deploy-a-chatgpt-with-openai-api-on-microsoft-azure-using-flask-docker-step-by-step-d7470b930672](https://medium.com/@mengmengliu24/deploy-a-chatgpt-with-openai-api-on-microsoft-azure-using-flask-docker-step-by-step-d7470b930672)
 
 To run the Flask app locally;
 ```
