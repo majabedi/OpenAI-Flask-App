@@ -19,4 +19,4 @@ def send_request():
     return jsonify({"Answer": answer, "Chat History Length": len(bot.chat_history)})
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", debug=True)
+    app.run()
