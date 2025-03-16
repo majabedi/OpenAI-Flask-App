@@ -7,7 +7,7 @@ api_key = 'OPENAI_API_KEY'
 bot = ChatBot(api_key, "you are a helpful assistant.")
 bot.initialize()
 
-@app.route('/', methods = ['POST'])
+@app.route('/', methods = ['POST','GET'])
 def send_request():
     new_query = request.get_json()['query']
 
